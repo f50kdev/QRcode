@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+  
+   
+
+
+}
+
+::-webkit-scrollbar{
+        width: 0.5em;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(0, 255, 64);
+    height: 10px;
+    margin-block: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(51, 46, 56);
+ 
+    transition: all 5s;
+
+}
+
+
+:root{
+    --maincolor: black;
+   
+    
+}
+
+body{
+    background: var(--maincolor);
+    display: grid; 
+    padding: 20px;
+      
+}
+
+header , .menu a{
+    height: 40px;
+    background: var(--whitecolor);
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+   
+
+
+}
+ 
+
+.menu{
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+  
+
+}
+a:hover{
+    color:rgb(101, 226, 43);
+    transition: all 0.5s;
+    font-weight: 700;
+
+}
+
+a{
+    font-weight: 700;
+}
+
+section{
+   
+    height: 620px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+   display: flex;
+   gap: 20px;
+    align-items: center;
+    
+    
+}
+
+section h1{
+    font-size: 90px;
+    color: greenyellow;
+    margin: 50px;
+    border: 1px solid;
+}
+
+.cor{
+    color: blue;
+  
+   width: 50%;
+}
+
+section img , .texto{
+    color: white;
+}
+
+small{
+     text-justify: inter-word;
+     text-transform: uppercase;
+     justify-content: center;
+}

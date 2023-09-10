@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    height: 720px;
+    justify-content: center;
+    align-content: center;
+    background-image: url("https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBlcmZ1bWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px
+    );
+   
+
+    
+}
+
+
+.card{
+    width: 460px;
+    height: 400px;
+    border-radius: 4px;
+    background:  hsla(0, 0%, 100%, 0.192);
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.256);
+    display: flex;
+    
+    
+}
+
+
+section , .sales{
+    width: 100%;
+}
+
+section{
+     background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+
+}
+
+section:hover{
+    transition:  all 0.5s;
+    background-image: url("https://images.unsplash.com/photo-1590736704728-f4730bb30770?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dauto=format&fit=crop&w=948&q=80");
+   background-size: cover;
+   /* background-position: center; */
+   transition-delay: initial;
+
+}
+
+
+.sales{  
+    margin: 10px;
+    top: 20px;
+    display:  flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+}
+
+.sales h4{ 
+    font-weight: 900;
+    text-size-adjust: bold;
+    
+
+
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    gap: 10px;
+    background:  hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border:  0px;
+
+
+
+}
+
+button:hover{
+    transition:  all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    gap: 10px;
+    background:  hsl(180, 8%, 3%);
+    color: white;
+    border-radius: 10px;
+    border:  0px;
+
+
+
+}A-
+
+button img{
+        color: bisque;
+    }
+
+    .prices{
+         display:  flex;
+         align-items: center;
+         justify-content: space-around;
+
+    }
+
+    header{
+        height: 40px;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+
+
+
+
+
+
+
+
